@@ -1,0 +1,32 @@
+2026-01-23 17:55:55 INFO  [main] OrangeHRM - Browser open Successfully
+2026-01-23 17:55:58 INFO  [main] OrangeHRM - Application Start
+2026-01-23 17:55:59 INFO  [main] OrangeHRM - user name entered Successfully
+2026-01-23 17:55:59 INFO  [main] OrangeHRM - password entered Successfully
+2026-01-23 17:55:59 INFO  [main] OrangeHRM - Successfully clicked on Login Button
+2026-01-23 17:56:01 INFO  [main] OrangeHRM - userLogin - Pass
+2026-01-23 17:58:40 INFO  [main] OrangeHRM - Browser open Successfully
+2026-01-23 17:58:44 INFO  [main] OrangeHRM - Application Start
+2026-01-23 17:58:46 INFO  [main] OrangeHRM - user name entered Successfully
+2026-01-23 17:58:46 INFO  [main] OrangeHRM - password entered Successfully
+2026-01-23 17:58:46 INFO  [main] OrangeHRM - Successfully clicked on Login Button
+2026-01-23 17:58:50 INFO  [main] OrangeHRM - userLogin - Pass
+2026-01-23 18:05:14 INFO  [main] OrangeHRM - Browser open Successfully
+2026-01-23 18:05:17 INFO  [main] OrangeHRM - Application Start
+2026-01-23 18:05:18 INFO  [main] OrangeHRM - user name entered Successfully
+2026-01-23 18:05:18 INFO  [main] OrangeHRM - password entered Successfully
+2026-01-23 18:05:18 INFO  [main] OrangeHRM - Successfully clicked on Login Button
+2026-01-23 18:05:21 INFO  [main] OrangeHRM - userLogin - Pass
+2026-01-23 18:05:26 INFO  [main] OrangeHRM - Browser open Successfully
+2026-01-23 18:05:30 INFO  [main] OrangeHRM - Application Start
+2026-01-23 18:05:35 INFO  [main] OrangeHRM - Successfully Click On Admin Section
+2026-01-23 18:05:36 INFO  [main] OrangeHRM - VerifyAdminPage - Pass
+2026-01-23 18:06:37 INFO  [main] OrangeHRM - Browser open Successfully
+2026-01-23 18:06:40 INFO  [main] OrangeHRM - Application Start
+2026-01-23 18:06:41 INFO  [main] OrangeHRM - user name entered Successfully
+2026-01-23 18:06:41 INFO  [main] OrangeHRM - password entered Successfully
+2026-01-23 18:06:41 INFO  [main] OrangeHRM - Successfully clicked on Login Button
+2026-01-23 18:06:43 INFO  [main] OrangeHRM - userLogin - Pass
+2026-01-23 18:06:47 INFO  [main] OrangeHRM - Browser open Successfully
+2026-01-23 18:06:51 INFO  [main] OrangeHRM - Application Start
+2026-01-23 18:06:58 INFO  [main] OrangeHRM - Successfully Click On Admin Section
+2026-01-23 18:06:58 INFO  [main] OrangeHRM - VerifyAdminPage - Pass
