@@ -25,14 +25,13 @@ public class BaseClass {
 	ReadConfig readConfig = new ReadConfig();
 	String myBrowser = readConfig.getBrowser();
 	String myUrl = readConfig.getUrl();
-	public static Logger logger;
 	public static WebDriver driver;
+	
+	Logger logger = LogManager.getLogger(BaseClass.class);
 
 	@BeforeMethod
 	public void browserSetup() {
-	
-		logger = LogManager.getLogger("OrangeHRM");
-		
+			
 		switch (myBrowser.toLowerCase()) {
 
 		case "chrome":

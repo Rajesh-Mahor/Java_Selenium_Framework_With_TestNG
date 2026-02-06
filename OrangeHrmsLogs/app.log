@@ -30,3 +30,13 @@
 2026-01-23 18:06:51 INFO  [main] OrangeHRM - Application Start
 2026-01-23 18:06:58 INFO  [main] OrangeHRM - Successfully Click On Admin Section
 2026-01-23 18:06:58 INFO  [main] OrangeHRM - VerifyAdminPage - Pass
+2026-02-06 18:13:14 INFO  [main] BaseClass - Browser open Successfully
+2026-02-06 18:13:22 INFO  [main] BaseClass - Application Start
+2026-02-06 18:13:23 INFO  [main] VerifyLoginWithValidCredential - user name entered Successfully
+2026-02-06 18:13:23 INFO  [main] VerifyLoginWithValidCredential - password entered Successfully
+2026-02-06 18:13:24 INFO  [main] VerifyLoginWithValidCredential - Successfully clicked on Login Button
+2026-02-06 18:13:28 INFO  [main] VerifyLoginWithValidCredential - userLogin - Pass
+2026-02-06 18:13:36 INFO  [main] BaseClass - Browser open Successfully
+2026-02-06 18:13:45 INFO  [main] BaseClass - Application Start
+2026-02-06 18:13:54 INFO  [main] VerifyAdminPage - Successfully Click On Admin Section
+2026-02-06 18:13:55 INFO  [main] VerifyAdminPage - VerifyAdminPage - Pass

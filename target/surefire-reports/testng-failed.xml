@@ -6,10 +6,15 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
+      <class name="com.orangehrm.TestCases.VerifyAdminPage">
+        <methods>
+          <include name="userAdminPage"/>
+          <include name="browserSetup"/>
+        </methods>
+      </class> <!-- com.orangehrm.TestCases.VerifyAdminPage -->
       <class name="com.orangehrm.TestCases.VerifyLoginWithValidCredential">
         <methods>
           <include name="userLogin"/>
-          <include name="tearDown"/>
           <include name="browserSetup"/>
         </methods>
       </class> <!-- com.orangehrm.TestCases.VerifyLoginWithValidCredential -->
