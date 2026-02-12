@@ -63,18 +63,20 @@ public class BaseClass {
 
 	}
 
-//	@AfterMethod
-//	public void tearDown() {
-//		driver.close();
-//		driver.quit();
-//		logger.info("Application Close");
-//	}
+	@AfterMethod
+	public void tearDown() {
+		driver.close();
+		driver.quit();
+		logger.info("Application Close");
+	}
 
 	public void ScreenShotCaptured(WebDriver driver, String testName) throws IOException {
 		TakesScreenshot screenshot = (TakesScreenshot)driver;
 		File source = screenshot.getScreenshotAs(OutputType.FILE);
 		File destination = new File(System.getProperty("user.dir") + "\\ScreenShots\\"+testName+".png");
 		FileUtils.copyFile(source, destination);
+		logger.info("ScreenShot Svae Successfully.");
+
 	}
 
 }
