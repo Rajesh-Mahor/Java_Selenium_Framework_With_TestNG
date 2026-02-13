@@ -1,0 +1,12 @@
+2026-02-13 12:34:46 INFO  [main] BaseClass - Browser open Successfully
+2026-02-13 12:34:53 INFO  [main] BaseClass - Application Start
+2026-02-13 12:34:54 INFO  [main] VerifyLoginWithValidCredential - user name entered Successfully
+2026-02-13 12:34:54 INFO  [main] VerifyLoginWithValidCredential - password entered Successfully
+2026-02-13 12:34:57 INFO  [main] VerifyLoginWithValidCredential - Successfully clicked on Login Button
+2026-02-13 12:34:58 INFO  [main] VerifyLoginWithValidCredential - userLogin - Pass
+2026-02-13 12:34:59 INFO  [main] BaseClass - Application Close
+2026-02-13 12:35:20 INFO  [main] BaseClass - Browser open Successfully
+2026-02-13 12:35:29 INFO  [main] BaseClass - Application Start
+2026-02-13 12:35:37 INFO  [main] VerifyAdminPage - Successfully Click On Admin Section
+2026-02-13 12:35:38 INFO  [main] VerifyAdminPage - VerifyAdminPage - Pass
+2026-02-13 12:35:39 INFO  [main] BaseClass - Application Close

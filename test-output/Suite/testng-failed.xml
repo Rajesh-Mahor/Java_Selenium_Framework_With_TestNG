@@ -9,9 +9,17 @@
       <class name="com.orangehrm.TestCases.VerifyLoginWithValidCredential">
         <methods>
           <include name="userLogin"/>
+          <include name="tearDown"/>
           <include name="browserSetup"/>
         </methods>
       </class> <!-- com.orangehrm.TestCases.VerifyLoginWithValidCredential -->
+      <class name="com.orangehrm.TestCases.VerifyAdminPage">
+        <methods>
+          <include name="userAdminPage"/>
+          <include name="tearDown"/>
+          <include name="browserSetup"/>
+        </methods>
+      </class> <!-- com.orangehrm.TestCases.VerifyAdminPage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
