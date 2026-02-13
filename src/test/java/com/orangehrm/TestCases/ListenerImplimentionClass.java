@@ -1,6 +1,8 @@
 package com.orangehrm.TestCases;
 
 import java.io.File;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 import org.testng.ITestContext;
 import org.testng.ITestListener;
@@ -22,8 +24,13 @@ public class ListenerImplimentionClass implements ITestListener {
 	ExtentTest test;
 
 	public void ReportSetUp() {
-
-		htmlReport = new ExtentSparkReporter("OrangeHrm_ExtentReport.html");
+		
+		String fileName = "OrangeHrm_ExtentReport_" + 
+		        LocalDateTime.now().format(
+		        DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"))
+		        + ".html";
+		
+		htmlReport = new ExtentSparkReporter(fileName);
 		report = new ExtentReports();
 		report.attachReporter(htmlReport);
 

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-23T18:05:07 IST" name="Suite" finished-at="2026-01-23T18:05:36 IST" duration-ms="28413">
+  <suite started-at="2026-02-13T12:34:15 IST" name="Suite" finished-at="2026-02-13T12:35:39 IST" duration-ms="84724">
     <groups>
     </groups>
-    <test started-at="2026-01-23T18:05:07 IST" name="Test" finished-at="2026-01-23T18:05:36 IST" duration-ms="28413">
+    <test started-at="2026-02-13T12:34:15 IST" name="Test" finished-at="2026-02-13T12:35:39 IST" duration-ms="84724">
       <class name="com.orangehrm.TestCases.VerifyLoginWithValidCredential">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.orangehrm.TestCases.VerifyLoginWithValidCredential@74e52ef6]" started-at="2026-01-23T18:05:08 IST" name="browserSetup" finished-at="2026-01-23T18:05:17 IST" duration-ms="8851" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.orangehrm.TestCases.VerifyLoginWithValidCredential@7203c7ff]" started-at="2026-02-13T12:34:15 IST" name="browserSetup" finished-at="2026-02-13T12:34:53 IST" duration-ms="38033" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="userLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.TestCases.VerifyLoginWithValidCredential@74e52ef6]" started-at="2026-01-23T18:05:17 IST" name="userLogin" data-provider="UserData" finished-at="2026-01-23T18:05:21 IST" duration-ms="4282" status="PASS">
+        <test-method signature="userLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.TestCases.VerifyLoginWithValidCredential@7203c7ff]" started-at="2026-02-13T12:34:53 IST" name="userLogin" data-provider="UserData" finished-at="2026-02-13T12:34:58 IST" duration-ms="5149" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,13 +32,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.TestCases.VerifyLoginWithValidCredential@7203c7ff]" started-at="2026-02-13T12:34:59 IST" name="tearDown" finished-at="2026-02-13T12:34:59 IST" duration-ms="919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.orangehrm.TestCases.VerifyLoginWithValidCredential -->
       <class name="com.orangehrm.TestCases.VerifyAdminPage">
-        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.orangehrm.TestCases.VerifyAdminPage@6f4a47c7]" started-at="2026-01-23T18:05:21 IST" name="browserSetup" finished-at="2026-01-23T18:05:30 IST" duration-ms="8363" status="PASS">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.orangehrm.TestCases.VerifyAdminPage@77b14724]" started-at="2026-02-13T12:35:00 IST" name="browserSetup" finished-at="2026-02-13T12:35:29 IST" duration-ms="29713" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserSetup -->
-        <test-method signature="userAdminPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.TestCases.VerifyAdminPage@6f4a47c7]" started-at="2026-01-23T18:05:30 IST" name="userAdminPage" data-provider="UserVerifyOnAdminPage" finished-at="2026-01-23T18:05:36 IST" duration-ms="5876" status="PASS">
+        <test-method signature="userAdminPage(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.orangehrm.TestCases.VerifyAdminPage@77b14724]" started-at="2026-02-13T12:35:29 IST" name="userAdminPage" data-provider="UserVerifyOnAdminPage" finished-at="2026-02-13T12:35:38 IST" duration-ms="9057" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -59,6 +63,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userAdminPage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.orangehrm.TestCases.VerifyAdminPage@77b14724]" started-at="2026-02-13T12:35:38 IST" name="tearDown" finished-at="2026-02-13T12:35:39 IST" duration-ms="920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.orangehrm.TestCases.VerifyAdminPage -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
