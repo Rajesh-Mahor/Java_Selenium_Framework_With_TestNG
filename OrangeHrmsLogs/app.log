@@ -1,12 +1,13 @@
-2026-02-13 12:34:46 INFO  [main] BaseClass - Browser open Successfully
-2026-02-13 12:34:53 INFO  [main] BaseClass - Application Start
-2026-02-13 12:34:54 INFO  [main] VerifyLoginWithValidCredential - user name entered Successfully
-2026-02-13 12:34:54 INFO  [main] VerifyLoginWithValidCredential - password entered Successfully
-2026-02-13 12:34:57 INFO  [main] VerifyLoginWithValidCredential - Successfully clicked on Login Button
-2026-02-13 12:34:58 INFO  [main] VerifyLoginWithValidCredential - userLogin - Pass
-2026-02-13 12:34:59 INFO  [main] BaseClass - Application Close
-2026-02-13 12:35:20 INFO  [main] BaseClass - Browser open Successfully
-2026-02-13 12:35:29 INFO  [main] BaseClass - Application Start
-2026-02-13 12:35:37 INFO  [main] VerifyAdminPage - Successfully Click On Admin Section
-2026-02-13 12:35:38 INFO  [main] VerifyAdminPage - VerifyAdminPage - Pass
-2026-02-13 12:35:39 INFO  [main] BaseClass - Application Close
+2026-02-13 15:18:07 INFO   VerifyLoginWithValidCredential:43 - Entrer in Data Provider Method.
+2026-02-13 15:18:27 INFO   BaseClass:58 - Browser open Successfully
+2026-02-13 15:18:36 INFO   BaseClass:62 - Application Start
+2026-02-13 15:18:38 INFO   VerifyLoginWithValidCredential:22 - user name entered Successfully
+2026-02-13 15:18:38 INFO   VerifyLoginWithValidCredential:24 - password entered Successfully
+2026-02-13 15:18:44 INFO   VerifyLoginWithValidCredential:26 - Successfully clicked on Login Button
+2026-02-13 15:18:47 INFO   VerifyLoginWithValidCredential:30 - userLogin - Pass
+2026-02-13 15:18:48 INFO   BaseClass:70 - Application Close
+2026-02-13 15:19:08 INFO   BaseClass:58 - Browser open Successfully
+2026-02-13 15:19:20 INFO   BaseClass:62 - Application Start
+2026-02-13 15:19:38 INFO   VerifyAdminPage:29 - Successfully Click On Admin Section
+2026-02-13 15:19:40 INFO   VerifyAdminPage:33 - VerifyAdminPage - Pass
+2026-02-13 15:19:41 INFO   BaseClass:70 - Application Close
