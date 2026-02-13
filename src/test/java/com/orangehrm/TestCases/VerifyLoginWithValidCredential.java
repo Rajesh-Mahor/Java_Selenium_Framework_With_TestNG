@@ -40,6 +40,8 @@ public class VerifyLoginWithValidCredential extends BaseClass {
 	@DataProvider(name = "UserData")
 	public String[][] userdataFromExcel() throws IOException {
 		
+		logger.info("Entrer in Data Provider Method.");
+		
 		String fileName = "D:\\eclipse-workspace\\Java Selenium Project\\OrangeHRM\\Configurations\\OrangeHRM_TestData.xlsx";
 		String shhetName = "LoginDetails";
 		
